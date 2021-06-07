@@ -1,0 +1,51 @@
+[
+
+  {
+    "rooms": [{
+        "type": "room",
+        "origin": [0, 0],
+        "bounds": {
+          "rows": 3,
+          "columns": 3
+        },
+        "layout": [
+          [0, 0, 0],
+          [0, 1, 0],
+          [0, 2, 0]
+        ]
+      },
+      {
+        "type": "room",
+        "origin": [8, 8],
+        "bounds": {
+          "rows": 3,
+          "columns": 3
+        },
+        "layout": [
+          [0, 2, 0],
+          [0, 1, 0],
+          [0, 0, 0]
+
+        ]
+      }
+    ],
+    "hallways": [{
+      "type": "hallway",
+      "from": [2, 1],
+      "to": [8, 9],
+      "waypoints": [[4, 1], [4, 5], [9, 5], [9, 3], [7, 3], [7, 1], [11, 1], [11, 7], [4, 7], [4, 9]]
+    }],
+    "objects": [{
+        "type": "key",
+        "position": [1, 1]
+      },
+      {
+        "type": "exit",
+        "position": [9, 9]
+      }
+    ]
+  },
+
+  [4, 5]
+
+]
